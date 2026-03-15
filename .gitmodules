@@ -1,0 +1,9 @@
+[submodule "frontend"]
+	path = frontend
+	url = https://github.com/Develezper/Riwlogi-Frontend
+[submodule "backend"]
+	path = backend
+	url = https://github.com/Develezper/Riwlogi-Backend
+[submodule "api"]
+	path = api
+	url = https://github.com/Develezper/Riwlogi-api
