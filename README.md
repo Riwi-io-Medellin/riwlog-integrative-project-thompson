@@ -53,7 +53,7 @@ source venv/bin/activate  # On Windows: venv\Scripts\activate
 pip install -r requirements.txt
 ./start.sh # Or run: fastapi dev main.py
 ```
-*(Make sure to configure `.env` with your `OPENAI_API_KEY` or `GOOGLE_API_KEY` as needed).*
+*(Make sure to configure `.env` with your `OPENAI_API_KEY` or `GOOGLE_API_KEY` as needed).* 
 
 ### 4. Frontend Setup
 The frontend uses Bun as the package manager and Vite for development.
@@ -83,6 +83,10 @@ docker build -t riwlog-frontend ./frontend
 docker build -t riwlog-backend ./backend
 docker build -t riwlog-ai-api ./api
 ```
+
+## Live Demo
+
+Access the deployed frontend at: [https://riwlogi-frontend.vercel.app/](https://riwlogi-frontend.vercel.app/)
 
 ## Documentation
 
